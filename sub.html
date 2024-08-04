@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtotal Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .summary-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .summary-row:last-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="summary-box">
+        <div class="summary-row">
+            <span>Subtotal:</span>
+            <span>$1,278</span>
+        </div>
+        <div class="summary-row">
+            <span>Tax:</span>
+            <span>$0</span>
+        </div>
+        <div class="summary-row">
+            <span>Total:</span>
+            <span>$1,278</span>
+        </div>
+    </div>
+</body>
+</html>
